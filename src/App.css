@@ -1,38 +1,92 @@
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  width: 500px;
+  margin: 2rem auto;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.header {
+  height: 100px;
+  position: relative;
+  overflow: hidden;
+  margin: 1rem;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.header-div-h1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  width: 100%;
+  height: 100%;
+}
+h1 {
+  text-align: center;
+  color: #fff;
+}
+.header-div-pre {
+  position: absolute;
+  top: 0;
+  left: 5%;
+  width: 150px;
+  height: 120%;
+  transform: rotate(47deg);
+  background-color: #5d6d7e;
+}
+.header-div-one {
+  position: absolute;
+  top: 0;
+  left: 15%;
+  background-color: #222;
+  width: 100px;
+  height: 100%;
+  transform: rotate(45deg);
+  background-color: #99a3a4;
+}
+.header-div-two {
+  position: absolute;
+  top: 0;
+  left: 23%;
+  background-color: #5d6d7e;
+  width: 200px;
+  height: 150%;
+  transform: rotate(50deg);
+}
+.header-div-three {
+  position: absolute;
+  top: 0;
+  left: 35%;
+  width: 200px;
+  height: 150%;
+  transform: rotate(50deg);
+  background-color: #566573;
+}
+.header-div-foor {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 180px;
+  height: 150%;
+  transform: rotate(52deg);
+  background-color: #99a3a4;
+  z-index: 1;
+}
+.header-div-five {
+  position: absolute;
+  top: -35px;
+  left: 53%;
+  width: 200px;
+  height: 150%;
+  transform: rotate(-55deg);
+  background-color: #99a3a4;
+  z-index: 0;
+}
+.header-div-six {
+  position: absolute;
+  top: 0px;
+  right: 5%;
+  width: 180px;
+  height: 145%;
+  transform: rotate(52deg);
+  background-color: #5d6d7e;
+  z-index: 2;
 }

@@ -1,0 +1,42 @@
+.todo {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  align-items: center;
+  margin: 0rem 1rem 1rem 1rem;
+  box-shadow: 0px 10px 5px -8px blue;
+}
+.todo-title {
+  flex-grow: 1;
+  text-align: center;
+  font-size: 1.1rem;
+}
+.todo-title > p {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.span-icon {
+  border: none;
+  padding: 2px;
+  background: none;
+  padding: 0.5rem;
+  text-transform: capitalize;
+  margin-left: 0.2rem;
+  margin-right: 0.2rem;
+  cursor: pointer;
+}
+.todo-icon-isComplete {
+  color: green;
+}
+.todo-icon-update, .todo-icon-notComplete{
+  color: rgb(87, 87, 219);
+}
+.todo-icon-delete {
+  color: red;
+}
+.isComplete {
+  text-decoration: line-through;
+}
+.icon {
+  font-size: 1.3rem;
+  background-color: #fff;
+}
